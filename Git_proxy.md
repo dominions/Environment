@@ -49,7 +49,7 @@
 5. 启动代理服务，设置代理  
 	```bash
 	# 启动shadowsocks。进入shawdowsocks.json文件所在目录，执行如下命令。
-	sudo sslocal -c shawdowsocks.json -d start
+	sudo sslocal -c shadowsocks.json -d start
 
 	# 启动polipo
 	sudo /etc/init.d/polipo restart
